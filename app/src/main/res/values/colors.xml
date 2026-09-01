@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#050505</color>
+    <color name="surface">#0E0A0A</color>
+    <color name="line">#261414</color>
+    <color name="red">#E23B2E</color>
+    <color name="red_hi">#FF5245</color>
+    <color name="red_deep">#7A1B14</color>
+    <color name="txt">#E8E0DC</color>
+    <color name="dim">#9A8F8A</color>
+    <color name="faint">#5C5451</color>
+    <color name="icon_bg">#050505</color>
+</resources>
