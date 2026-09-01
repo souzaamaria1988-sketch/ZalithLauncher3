@@ -21,7 +21,7 @@ Cada fase vive na sua branch; a principal recebe merges estabilizados.
 - [x] Runtime Java por versão do jogo (8 / 17 / 21)
 
 ## Fase 3 — Melhorias e otimização (branch melhorias)
-- [ ] Presets de flags JVM conforme a RAM do aparelho
-- [ ] Ajuste automático de -Xmx e GC (G1GC / ZGC)
-- [ ] Download paralelo + verificação incremental de bibliotecas
-- [ ] Cache de assets/shaders e diagnóstico local de FPS/latência
+- [x] Presets de flags JVM conforme a RAM do aparelho
+- [x] Ajuste automático de -Xmx e GC (G1GC / ZGC)
+- [x] Download paralelo + verificação incremental de bibliotecas
+- [x] Cache de assets/shaders e diagnóstico local de FPS/latência
