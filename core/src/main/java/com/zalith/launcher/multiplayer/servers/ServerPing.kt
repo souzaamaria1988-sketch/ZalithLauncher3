@@ -103,7 +103,8 @@ object ServerPing {
         fun varInt(value: Int): Packet {
             var v = value
             while (true) {
-                if ((v and 0xFFFFFF80.inv()) == 0) {
+                // 0x7F.inv() == 0xFFFFFF80 como Int: limpa os 7 bits baixos
+                if ((v and 0x7F.inv()) == 0) {
                     buf.write(v)
                     return this
                 }
